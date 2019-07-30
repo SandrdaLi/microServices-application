@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "applicationType": "microservice",
+    "gitCompany": "",
+    "baseName": "MicroServicesApplication",
+    "packageName": "com.prudential.pgim.fi",
+    "packageFolder": "com/prudential/pgim/fi",
+    "serverPort": 9090,
+    "serviceDiscoveryType": "consul",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mssql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "gradle",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "6.1.2",
+    "jwtSecretKey": "ZWUzMjAwYTQ2MWJiNjQ1YTgyY2UzMWRlOTg0Zjc0NDA0YTk3OTNjMWZhNWU2YmU0MTY5YjZhZWQyODMxY2UyN2EyNDUxZDYxYzI4ZDRjOGY0YzQ4N2UzNGQ2NzI5ZTk3MGViM2ZiNGFjNDM3ZjA4MmE1Y2JiYTJiMmY4NGYzM2U=",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  },
+  "git-provider": "GitHub",
+  "git-company": "SandrdaLi",
+  "repository-name": "microServices-application"
+}
